@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AiBx Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="newcss.css" />
+</head>
+
+<body>
+ <!--<header class="header">
+    <h1>Uncover Capacity. Build Healthier Systems.</h1> 
+     <a href="#contact" class="cta-button">Join Waitlist</a>
+ </header>-->
+
+    <div class="hamburger" id="hamburger" onclick="toggleSidebar()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <aside class="sidebar" id="sidebar">
+        <img class="logo" src = 'Artifacts/Logo TM.png' alt="AiBx Logo">
+        <nav>
+        <a href="#problem">🔍 What is AiBx</a>
+        <a href="#summary">📊 Insights</a>
+        <a href="#how-it-works">⚙️ How It Works</a>
+        <a href="#about">🏢 About Us</a>
+        <a href="#contact">📬 Contact</a>
+        </nav>
+        <footer class="sidebar-footer">
+        <p>© 2025 AiBx, LLC</p>
+        </footer>
+    </aside>
+
+ <main class="main">
+
+    <div class="what-is" id="problem">
+        <h1>What Is AiBx?</h1>
+        <p class="subtitle">“AiBx is a consulting service that uses AI/ML to uncover hidden inefficiencies, improve workflows, and drive smarter decisions”</p>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <img src="Artifacts/square-user.svg" alt="user">
+                <h3>Who</h3>
+                <p>Operational leaders, data analysts, consultants, and executives</p>
+            </div>
+            <div class="feature-card">
+                <img src="Artifacts/combine.svg" alt="search">
+                <h3>What</h3>
+                <p>Identify inefficiencies, hidden risks, and opportunities for productivity improvements.</p>
+            </div>
+            <div class="feature-card">
+                <img src="Artifacts/lightbulb (2).svg" alt="search">
+                <h3>Why</h3>
+                <p>Enable smarter decision-making and resource allocation—without manual analysis or guesswork</p>
+            </div>
+        </div>
+        <p class="note">Scroll down to see how AiBx can help you! <br>
+        <img src = "Artifacts/arrow-down-to-line.svg" alt="arrow"></p>
+    </div>
+
+    <div class="dashboard" id="summary">
+        <h2 class="dashboard-head">Data Into Insight!</h2>
+
+   <!--<div class="team-tabs">
+        <h2 style="color:white;">Organization Dashboard</h2>
+        <div class="tabs">         
+            <div class="tab1">Team Alpha</div>
+            <div class="tab">Team Beta</div>
+            <div class="tab">Team Gamma</div>
+            <p>Move your mouse over each section to learn more...</p>
+        </div>
+    
+        <div class="tabs-modal">
+            <h3>See Status Across Teams</h3>
+            <h4>Leaders can filter to each team in their organization</h4>
+        </div>
+
+    </div>--> 
+
+    <div class="dashboard-item">
+
+    <div class="widget">
+      <h4>Work Complete</h4>
+      <div class="widget-number"style="color: lightblue;">40%</div>
+      <p>Visualize Output</p>
+    </div>
+
+    <div class="widget">
+        <h4>Cycle Time</h4>
+        <div class="widget-number" style="color: #4CAF50;">22</div>
+        <p>Deliver More</p>
+    </div>
+
+    <div class="widget">
+      <h4>Work Waiting</h4>
+      <div class="widget-number" style="color:goldenrod;">5</div>
+      <p>See Bottlenecks</p>
+    </div>
+
+    <div class="widget">
+      <h4>Interruptions</h4>
+      <div class="widget-number"style="color: red;">10</div>
+      <p>Reduce Unplanned Costs</p>
+    </div>
+
+    <div class="dashboard-modal">
+      <h3>Explore deeper metrics.</h3>
+    </div>
+
+  </div>
+
+    <div class="dashboard-item2">
+
+    <div class = "chart">
+      
+        <img src= 'Artifacts/Chart.png' alt="Chart Preview">
+   
+        <div class="chart-modal">
+            <h3>Watch your team eliminate unplanned work!</h3>
+           <!-- <p>Here you can customize reports. This team reduced interruptions by 53%!</p>-->
+        </div>
+
+    </div>
+
+    <div class="dashboard2-grid">
+        
+        <div class="dashboard2-row">
+            <div class = "widget2">
+                <img src="Artifacts/upload.svg">
+                <h1>Complement Your Tools</h1>
+                <p>AiBx does not replace planning or scheduling tools. Instead, it adds an operational lens to your existing processes.</p>
+            </div>
+        </div>
+
+        <div class="dashboard2-row2">
+            <div class = "widget2">
+                <img src="Artifacts/boxes.svg">
+                <h1>Detect Patterns</h1>
+                <p>Reveal repeated work and issues</p>
+            </div>
+
+            <div class = "widget2">
+                <img src="Artifacts/chart-line.svg">
+                <h1>Reveal Opportunity</h1>
+                <p>Surface bottlenecks and opportunities</p>
+            </div>
+
+            <div class = "widget2">
+                <img src="Artifacts/clipboard-plus.svg">
+                <h1>Interpret Insights</h1>
+                <p>Maximize value and minimize risk</p>
+            </div>
+    </div>
+
+    </div>
+    </div>
+
+    <!--  <div class="dashboard-item3">
+        <div class="widget4-row">
+            <h1> Where could you save time?</h1>
+            
+        <div class="widget4">
+
+        <section class="card">
+            <img src="Artifacts/user-round-cog.svg" alt="cog"><br>
+            <p>Lose time to interruptions and repetitive manual toil</p>
+        </section>
+
+        <section class="card">
+            <img src="Artifacts/user-round-pen.svg" alt="pen"> <br>
+            <p>Lose time to status updates and balancing capacity</p>
+        </section>
+
+        <section class="card">
+            <img src="Artifacts/user-search.svg" alt="search"> <br>
+            <p>Lose capacity to operations issues across teams</p>
+        </section>
+
+        <section class="card">
+            <img src="Artifacts/user-check.svg" alt="search"><br>
+            <p>Where will you save time?</p>
+        </section>
+        
+        </div>
+
+          <div class="widget3">
+                 <h1> <img src="Artifacts/flame.svg" alt="boxes"> High-Risk Areas </h1>
+            <section class="text-grid">
+                <div>Refactor Module</div>
+                <div>9.1</div>
+                <div>Automate Rollbacks</div>
+                <div>8.3</div>
+                <div>Rewrite Auth Service</div>
+                <div>7.4</div>
+            </section>
+
+            <div class="widget3-modal">
+                <h3>Unlock Risk</h3>
+                <p>This section detects the most likely work to trigger an interruption!</p>
+            </div>
+
+             </div>-->
+    </div>
+    
+    <section class="how" id="how-it-works">
+        
+        <h1>How Does It Work?</h1>
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+                <img src="Artifacts/upload.svg" alt="upload">
+                <h3>Assess Data</h3>
+                <p>We assess your data together</p>
+            </div>
+
+            <div class="feature-card">
+                <img src="Artifacts/brain-circuit.svg" alt="lightbulb">
+                <h3>AI Interprets</h3>
+                <p>We use proprietary models to surface risk and inefficiencies</p>
+            </div>
+
+            <div class="feature-card">
+                <img src="Artifacts/lightbulb.svg" alt="lightbulb">
+                <h3>Insights Delivered</h3>
+                <p>You get actionable recommendations</p>
+            </div>
+
+        </div>
+
+        <p class="subtitle">AiBx does not replace planning or scheduling tools. <br> Instead, we add an operational lens to your existing systems.</p>
+    
+    </section>
+
+    <div class="about" id="about">
+        
+        <h1>About Us</h1>
+         <div class="about1">
+            <div class="feature-card2">
+                <h3>Mission</h3>
+                <p>AiBx uses data analytics to to help organizations make smarter decisions.
+                    We want to become your indispensible insight solution.</p>
+            </div>
+        </div>
+
+        <div class="about-grid2">
+            <div class="feature-card3">
+                <h3>Transparency</h3>
+                <p>Metrics drive more effective action</p>
+            </div>
+
+            <div class="feature-card3">
+                <h3>Practicality</h3>
+                <p>We focus on usable insights that leaders need.</p>
+            </div>
+
+            <div class="feature-card3">
+                <h3>Pride</h3>
+                <p>We want to help teams build systems they're proud of</p>
+                </ul>
+            </div>
+        </div>
+
+        <div class="about-grid3">
+            <div><img src="Artifacts/Founder.jpg"></div>
+            <div class="about-founder">
+                <h3>Meet the Founder: Destin Fleming</h3>
+                <p>A Technical Leader, Destin has extensive experience leading large-scale engineering projects.
+                He is passionate about leveraging AI/ML to improve operational efficiency and system health.<br><br>
+                "I firmly believe the best way to create customer value is 
+                by empowering teams to grow, take informed risks, and to build systems they take pride in."</p>
+            </div>   
+        </div>
+    </div>
+
+    <section class="contact-container" id="contact">
+        <h1>Contact AiBx</h1>
+            <p class="contact-description">
+            Reach out with questions, ideas, or opportunities. We're always open to a great conversation.
+            </p>
+            <form class="contact-form" id="contactForm" action="mailto:aibxllc@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Have any ideas or suggestions?" required></textarea>
+
+            <button type="submit" class="button">Send Message</button>
+            </form>
+            <p id="formResponse" class="form-response"></p>
+  </section>
+
+<script>
+    function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    const hamburger = document.getElementById('hamburger');
+    sidebar.classList.toggle('open');
+    hamburger.classList.toggle('open');
+  }
+</script>
+
+</main>
+
+
+</body>
+</html>
